@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Frontend Mentor | 3-column preview card component</title>
+    <title>3-column preview card component</title>
 
     <script>
       tailwind.config = {
@@ -41,7 +41,7 @@
       .desc {
         font-family: "Lexend Deca", sans-serif;
       }
-      h1 {
+      h2 {
         font-family: "Big Shoulders Display", cursive;
       }
     </style>
@@ -50,12 +50,12 @@
   <body
     class="flex flex-col justify-center items-center min-h-screen bg-veryLightGray"
   >
-    <main class="my-10 md:my-0 flex flex-wrap lg:flex-nowrap w-[70%]">
+    <main class="m-10 flex flex-wrap max-w-[375px] md:max-w-[60rem] md:flex-nowrap">
       <!-- card 1 -->
       <div class="card card-1 p-10 bg-brightOrange">
         <img src="images/icon-sedans.svg" alt="" />
 
-        <h1 class="text-veryLightGray my-8 text-4xl font-semibold">Sedans</h1>
+        <h2 class="text-veryLightGray my-8 text-4xl font-semibold">Sedans</h2>
 
         <p class="desc text-transparentWhite">
           Choose a sedan for its affordability and excellent fuel economy. Ideal
@@ -73,7 +73,7 @@
       <div class="card card-2 p-10 bg-darkCyan">
         <img src="images/icon-suvs.svg" alt="" />
 
-        <h1 class="text-veryLightGray my-8 text-4xl font-semibold">SUVs</h1>
+        <h2 class="text-veryLightGray my-8 text-4xl font-semibold">SUVs</h2>
 
         <p class="desc text-transparentWhite">
           Take an SUV for its spacious interior, power, and versatility. Perfect
@@ -91,7 +91,7 @@
       <div class="card card-3 p-10 bg-veryDarkCyan">
         <img src="images/icon-luxury.svg" alt="" />
 
-        <h1 class="text-veryLightGray my-8 text-4xl font-semibold">Luxury</h1>
+        <h2 class="text-veryLightGray my-8 text-4xl font-semibold">Luxury</h2>
 
         <p class="desc text-transparentWhite">
           Cruise in the best car brands without the bloated prices. Enjoy the
@@ -105,5 +105,13 @@
         >
       </div>
     </main>
+
+    <!-- footer -->
+    <footer class="text-sm mt-auto mb-2">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/numan-iftikhar">Numan Iftikhar</a>.
+    </footer>
   </body>
 </html>
